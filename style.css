@@ -6,6 +6,27 @@ body {
     padding: 0;
 }
 
+.image-hover {
+    position: relative;
+    display: inline-block;
+}
+
+.image-hover img {
+    display: block;
+}
+
+.image-hover .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-hover:hover .image2 {
+    opacity: 1;
+}
+
 .page {
     max-width: 59em;
     margin: 2.5em auto;
