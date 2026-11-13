@@ -1,0 +1,60 @@
+body {
+    background-color: #e9e5da;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    max-width: 59em;
+    margin: 2.5em auto;
+    background-color: #f6f4ee;
+    display: flex;
+}
+
+.barre {
+    background-color: #007d8b;
+    color: white;
+    width: 16em;
+    padding : 2em;
+}
+
+.sousligne{
+    background-color: black;
+    height: 0.10em;
+}
+
+.ligne {
+    color: #007d8b;
+    height: 0.10em;
+    background-color: #007d8b;
+    margin-left: -2em;
+}
+
+.Principale{
+    margin-left: 2em;
+}
+
+.titre, .entreprise{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lien{
+    text-decoration: none;
+    color: white;
+}
+
+.lien:hover{
+    color: orange;
+}
+
+.lien2{
+    text-decoration: none;
+    color: black;
+}
+
+.lien2:hover{
+    color: orange;
+}
